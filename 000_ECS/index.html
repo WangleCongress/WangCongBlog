@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>懂点云计算 | 聪哥的技术笔记</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="故事的开始，我们就从云服务器讲起吧。 云服务器简介^1&amp;ensp;&amp;ensp;云服务器，英文名为Cloud Server，全称Elastic Compute Service，译为弹性计算服务，业内称其为计算单元，简称ECS、CVM、AWS EC2、Azure VM, 等。各云服务商提供的用于云计算(Cloud Computing)服务的云服务器主机名并不统一，简称各有不同。 &amp;ensp;&amp;ensp">
+<meta name="keywords" content="服务器,云计算">
+<meta property="og:type" content="article">
+<meta property="og:title" content="懂点云计算">
+<meta property="og:url" content="http://yoursite.com/000_ECS/index.html">
+<meta property="og:site_name" content="聪哥的技术笔记">
+<meta property="og:description" content="故事的开始，我们就从云服务器讲起吧。 云服务器简介^1&amp;ensp;&amp;ensp;云服务器，英文名为Cloud Server，全称Elastic Compute Service，译为弹性计算服务，业内称其为计算单元，简称ECS、CVM、AWS EC2、Azure VM, 等。各云服务商提供的用于云计算(Cloud Computing)服务的云服务器主机名并不统一，简称各有不同。 &amp;ensp;&amp;ensp">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="http://yoursite.com/images/ECSvsIDC.PNG">
+<meta property="og:updated_time" content="2019-03-13T09:22:55.095Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="懂点云计算">
+<meta name="twitter:description" content="故事的开始，我们就从云服务器讲起吧。 云服务器简介^1&amp;ensp;&amp;ensp;云服务器，英文名为Cloud Server，全称Elastic Compute Service，译为弹性计算服务，业内称其为计算单元，简称ECS、CVM、AWS EC2、Azure VM, 等。各云服务商提供的用于云计算(Cloud Computing)服务的云服务器主机名并不统一，简称各有不同。 &amp;ensp;&amp;ensp">
+<meta name="twitter:image" content="http://yoursite.com/images/ECSvsIDC.PNG">
+  
+    <link rel="alternate" href="/atom.xml" title="聪哥的技术笔记" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">聪哥的技术笔记</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">科技是一种生活。——比特网</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-000_ECS" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/000_ECS/" class="article-date">
+  <time datetime="2019-03-12T06:01:31.000Z" itemprop="datePublished">2019-03-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      懂点云计算
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>故事的开始，我们就从云服务器讲起吧。</p>
+<h4 id="云服务器简介-1"><a href="#云服务器简介-1" class="headerlink" title="云服务器简介^1"></a>云服务器简介<a href="百度百科">^1</a></h4><p>&ensp;&ensp;云服务器，英文名为Cloud Server，全称Elastic Compute Service，译为弹性计算服务，业内称其为计算单元，简称ECS、CVM、AWS EC2、Azure VM, 等。各云服务商提供的用于<code>云计算</code>(Cloud Computing)服务的云服务器主机名并不统一，简称各有不同。</p>
+<p>&ensp;&ensp;云服务器是一种计算服务的处理能力可弹性伸缩的<code>虚拟服务器</code>，其管理方式比物理服务器更简单高效，(●’◡’●)，<a id="more"></a>能快速构建更稳定、安全的应用，降低开发运维的难度和整体IT成本。</p>
+<p>&ensp;&ensp;云服务器是云计算服务的重要组成部分，是面向各类互联网用户提供综合业务能力的服务平台。平台整合了传统意义上的互联网应用三大核心要素：<code>计算、存储、网络</code>，向用户提供互联网基础设施服务。</p>
+<p>&ensp;&ensp;云服务器服务包括两个核心产品：<code>1. 云服务器租用服务  2. 弹性计算平台服务</code></p>
+<h4 id="云服务器平台的集群节点-2"><a href="#云服务器平台的集群节点-2" class="headerlink" title="云服务器平台的集群节点^2"></a>云服务器平台的集群节点<a href="互动百科">^2</a></h4><p>&ensp;&ensp;云服务器平台的每个集群节点被部署在互联网的骨干数据中心，可独立提供计算、存储、在线备份、托管、带宽等互联网基础设施服务。<br>&ensp;&ensp;<code>集群节点</code>由管理服务器、计算服务器群和交换机等硬件构成。<br>&ensp;&ensp;<code>管理服务器</code>：采取双机热备的方式，对整个节点的所有计算服务器、共享存储、网络进行管理，同时对外提供管理整个节点的应用程序接口。<br>&ensp;&ensp;<code>计算服务器群</code>：计算服务器是高配置的八核以上服务器，计算服务器无需安装操作系统，但必须具备网络引导功能，其上运行一个Linux微内核、云计算机软件、一个与管理服务器进行通讯的代理。<br>&ensp;&ensp;<code>交换机</code>：按不同功能和节点性能要求配备多个三层交换机，分别负责管理网段、公网交换网段、内部交换网段、存储网段等。</p>
+<h4 id="云服务器的优势-3"><a href="#云服务器的优势-3" class="headerlink" title="云服务器的优势^3"></a>云服务器的优势<a href="搜狗百科">^3</a></h4><p><img src="/images/ECSvsIDC.PNG" alt="云服务器与传统IDC对比"></p>
+<p>国外的云服务商，主要有云服务的鼻祖——亚马逊AWS、曾经鼎级一时的软件帝国——微软Azure、新千年互联网执牛耳者——谷歌GAE、已经步入没落的蓝色巨人——IBM Bluemix，这里，其实还缺了一位，全球上市公司市值最高者 —— Apple iCloud，但iCloud主要服务于云存储。<a href="CSDN博客">^4</a></p>
+<p>国内主流的云服务商，包含腾讯云、阿里云、华为云、百度云、京东云、西部数码云主机、华为数据云主机、UCloud、金山大米云等等。</p>
+<h4 id="术语-5"><a href="#术语-5" class="headerlink" title="术语^5"></a>术语<a href="[维基百科](https://en.wikipedia.org/wiki/Wikipedia:About)">^5</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">面向服务的体系结构提倡“一切即服务”（使用缩略语EaaS或XaaS，或简称aas）</span><br><span class="line">软件即服务（SaaS）   </span><br><span class="line">平台即服务（PaaS）   </span><br><span class="line">基础架构即服务（IaaS）</span><br><span class="line">CDN </span><br><span class="line">DevOps</span><br><span class="line">神经网络 机器学习</span><br><span class="line">物联网（IoT,Internet of Things）</span><br><span class="line">OpenStack</span><br><span class="line">Zabbix</span><br><span class="line">云计算[^6]</span><br><span class="line">微服务</span><br><span class="line">人工智能 AI</span><br><span class="line">智能家居</span><br><span class="line">智慧城市</span><br><span class="line">VMware虚拟化</span><br><span class="line">NoSQL</span><br><span class="line">雾计算</span><br><span class="line">数据中心</span><br></pre></td></tr></table></figure>
+<h5 id="纵横不出方圆，万变不离其宗，无论是云服务器还是本地服务器，运维的目的和本质并没有改变。"><a href="#纵横不出方圆，万变不离其宗，无论是云服务器还是本地服务器，运维的目的和本质并没有改变。" class="headerlink" title="纵横不出方圆，万变不离其宗，无论是云服务器还是本地服务器，运维的目的和本质并没有改变。"></a>纵横不出方圆，万变不离其宗，无论是云服务器还是本地服务器，运维的目的和本质并没有改变。</h5>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/000_ECS/" data-id="cjt6zztmg0000z43r8n9wvlmb" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/云计算/">云计算</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/服务器/">服务器</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/002_WeChat/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          微信的公众号和小程序
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web编程/">Web编程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/云计算/">云计算</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/微信/">微信</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据库/">数据库</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/服务器/">服务器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/项目管理/">项目管理</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Web编程/" style="font-size: 10px;">Web编程</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/云计算/" style="font-size: 10px;">云计算</a> <a href="/tags/微信/" style="font-size: 10px;">微信</a> <a href="/tags/数据库/" style="font-size: 10px;">数据库</a> <a href="/tags/服务器/" style="font-size: 10px;">服务器</a> <a href="/tags/项目管理/" style="font-size: 10px;">项目管理</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/004_MSSQL/">MSSQL</a>
+          </li>
+        
+          <li>
+            <a href="/003_ASP-NET/">ASP.NET</a>
+          </li>
+        
+          <li>
+            <a href="/001_Github/">玩转Github</a>
+          </li>
+        
+          <li>
+            <a href="/002_WeChat/">微信的公众号和小程序</a>
+          </li>
+        
+          <li>
+            <a href="/000_ECS/">懂点云计算</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 王聪<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
